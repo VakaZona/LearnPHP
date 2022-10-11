@@ -1,0 +1,9 @@
+<h1>site <?= $site ?></h1>
+
+<?php if (!empty($subprojects)) : ?>
+    <ul>
+        <?php foreach ($subprojects as $project) : ?>
+            <li><?= $project ?></li>
+        <?php endforeach ?>
+    </ul>
+<?php endif ?>
